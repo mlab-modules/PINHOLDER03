@@ -1,7 +1,7 @@
 description: Board for mounting thick semiconductor diodes into existing devices.
 github_branch: PINHOLDER01A
 github_repo: PINHOLDER01
-github_url: https://github.com/ust-modules/PINHOLDER01
+github_url: https://github.com/mlab-modules/PINHOLDER01
 homepage: false
 images: []
 mark: 50
