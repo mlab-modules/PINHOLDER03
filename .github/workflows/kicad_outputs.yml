@@ -13,6 +13,9 @@ on:
       - '**.yml'
       - 'doc/assets'
   workflow_dispatch:
+
+permissions:
+  contents: write
   
 env:
   schema: "hw/sch_pcb/${{ github.event.repository.name }}.kicad_sch"
