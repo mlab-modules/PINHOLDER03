@@ -5,9 +5,9 @@
   (paper "A4")
 
   (title_block
-    (title "PINHOLDER02A")
+    (title "PINHOLDER03A")
     (date "2023-04-12")
-    (rev "02A")
+    (rev "03A")
     (company "www.mlab.cz")
   )
 
