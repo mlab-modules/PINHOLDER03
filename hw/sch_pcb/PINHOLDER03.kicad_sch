@@ -455,6 +455,10 @@
     (uuid f4b97e50-26f7-47b6-8819-24f67a7d6cd4)
   )
 
+  (text "A \nGND\nK" (at 153.67 101.6 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 1060056d-fa2b-46c7-85d6-7ec4a670ab9a)
+  )
   (text "MOUNTING HOLES" (at 255.27 31.75 0)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 1c59db75-c987-4ba0-9685-ab2ad2272454)
