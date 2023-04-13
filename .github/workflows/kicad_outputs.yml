@@ -13,9 +13,6 @@ on:
       - '**.yml'
       - 'doc/assets'
   workflow_dispatch:
-
-permissions:
-  contents: write
   
 env:
   schema: "hw/sch_pcb/${{ github.event.repository.name }}.kicad_sch"
@@ -33,6 +30,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           submodules: recursive
+          token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
           
       - uses: INTI-CMNB/KiBot@v2_dk6
@@ -50,6 +48,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           submodules: recursive
+          token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
           
       - uses: INTI-CMNB/KiBot@v2_dk6
@@ -67,6 +66,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           submodules: recursive
+          token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
           
       - uses: INTI-CMNB/KiBot@v2_dk6
@@ -90,6 +90,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           submodules: recursive
+          token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
           
       - uses: INTI-CMNB/KiBot@v2_dk6
@@ -134,6 +135,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           submodules: recursive
+          token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
           
       - uses: INTI-CMNB/KiBot@v2_dk6
@@ -157,6 +159,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           submodules: recursive
+          token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
           
       - uses: INTI-CMNB/KiBot@v2_dk6
@@ -185,6 +188,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           submodules: recursive
+          token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
           
       - uses: INTI-CMNB/KiBot@v2_dk6        
@@ -213,6 +217,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           submodules: recursive
+          token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
           
       - uses: INTI-CMNB/KiBot@v2_dk6
@@ -251,6 +256,7 @@ jobs:
     - uses: actions/checkout@v3
       with:
         ref: ${{ github.head_ref }}
+        token: ${{ secrets.pat }}
 
     - run: |
         git pull --force --rebase || true
