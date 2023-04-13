@@ -1,9 +1,17 @@
 description: Board for mounting thick semiconductor diodes into existing devices.
-github_branch: PINHOLDER01A
-github_repo: PINHOLDER01
-github_url: https://github.com/mlab-modules/PINHOLDER01
+github_branch: PINHOLDER03A
+github_repo: PINHOLDER03
+github_url: https://github.com/mlab-modules/PINHOLDER03
 homepage: false
-images: []
+images:
+- doc/gen/img/PINHOLDER01-bottom.png
+- doc/gen/img/PINHOLDER01-top.png
+- doc/gen/PINHOLDER01-schematic.svg
+- doc/gen/img/PINHOLDER01-top.svg
+- hw/cam_profi/docs/PINHOLDER01A-assembly_page_02.svg
+- hw/cam_profi/docs/PINHOLDER01A-assembly_page_01.svg
 mark: 50
+mod_ibom: hw/cam_profi/ibom/PINHOLDER01-ibom.html
+mod_scheme: doc/gen/PINHOLDER01-schematic.pdf
 tags: []
-title: PINHOLDER01
+title: PINHOLDER03
