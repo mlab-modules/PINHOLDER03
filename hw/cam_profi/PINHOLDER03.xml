@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/PINHOLDER03.kicad_sch</source>
-    <date>Wed Jul  5 12:20:56 2023</date>
-    <tool>Eeschema 6.0.11+dfsg-1~bpo11+1</tool>
+    <date>Wed Jul  5 15:13:45 2023</date>
+    <tool>Eeschema 7.0.5.1-1-g8f565ef7f0-dirty-deb11</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>PINHOLDER03A</title>
@@ -24,12 +24,38 @@
     </sheet>
   </design>
   <components>
+    <comp ref="D1">
+      <value>D_Photo_Filled</value>
+      <libsource lib="Device" part="D_Photo_Filled" description="Photodiode, filled shape"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PINHOLDER03.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_description" value="Photodiode, filled shape"/>
+      <property name="ki_keywords" value="photodiode diode opto"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cacbfeee-46f4-4dc7-b711-113ec1189ddb</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>D_Photo_Filled</value>
+      <libsource lib="Device" part="D_Photo_Filled" description="Photodiode, filled shape"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PINHOLDER03.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_description" value="Photodiode, filled shape"/>
+      <property name="ki_keywords" value="photodiode diode opto"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46381482-ec97-4f2f-aa0b-55a958e86aeb</tstamps>
+    </comp>
     <comp ref="J1">
       <value>HEADER_1x03</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left</footprint>
       <libsource lib="MLAB_HEADER" part="HEADER_1x03" description="1x03 2.54 mm pitch header"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PINHOLDER03.kicad_sch"/>
+      <property name="ki_description" value="1x03 2.54 mm pitch header"/>
+      <property name="ki_keywords" value="1x03, header, connector, pinheader"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d35152c3-e35c-415b-acc7-d8cef90f0103</tstamps>
     </comp>
@@ -39,6 +65,8 @@
       <libsource lib="MLAB_HEADER" part="HEADER_1x02" description="1x02 2.54 mm pitch header"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PINHOLDER03.kicad_sch"/>
+      <property name="ki_description" value="1x02 2.54 mm pitch header"/>
+      <property name="ki_keywords" value="1x02, header, connector, pinheader"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>77b0b7f1-efb5-4b4d-9baf-216602a00a7c</tstamps>
     </comp>
@@ -48,6 +76,7 @@
       <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PINHOLDER03.kicad_sch"/>
+      <property name="ki_keywords" value="HOLE, X, M"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>2966c4ec-ab86-48c7-b622-e8ba9ff43a81</tstamps>
     </comp>
@@ -57,6 +86,7 @@
       <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PINHOLDER03.kicad_sch"/>
+      <property name="ki_keywords" value="HOLE, X, M"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>471731a9-774a-4a26-8f31-d71830da0f1d</tstamps>
     </comp>
@@ -66,6 +96,7 @@
       <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PINHOLDER03.kicad_sch"/>
+      <property name="ki_keywords" value="HOLE, X, M"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>38b35dd8-1022-49ff-9859-753b58dd2e59</tstamps>
     </comp>
@@ -75,6 +106,7 @@
       <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PINHOLDER03.kicad_sch"/>
+      <property name="ki_keywords" value="HOLE, X, M"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7a059145-aa34-4c3a-99f5-35c4d4e2d7aa</tstamps>
     </comp>
@@ -92,6 +124,8 @@
       <property name="Value" value="TestPoint"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PINHOLDER03.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0973725f-4664-4b74-b9c4-81776f94e86a</tstamps>
     </comp>
@@ -109,6 +143,8 @@
       <property name="Value" value="TestPoint"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PINHOLDER03.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e649fda7-ed42-4b94-ae38-717a632400ce</tstamps>
     </comp>
@@ -126,6 +162,8 @@
       <property name="Value" value="TestPoint"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PINHOLDER03.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0521453e-93ce-4237-96e4-b00c7fb40edf</tstamps>
     </comp>
@@ -203,6 +241,7 @@
   </libraries>
   <nets>
     <net code="1" name="/circle_0">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J1" pin="1" pintype="input"/>
       <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
@@ -214,13 +253,16 @@
       <node ref="M3" pin="1" pintype="input"/>
       <node ref="M4" pin="1" pintype="input"/>
     </net>
-    <net code="3" name="Net-(D1-Pad2)">
-      <node ref="J2" pin="2" pintype="input"/>
-      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
-    </net>
-    <net code="4" name="Net-(D2-Pad2)">
+    <net code="3" name="Net-(J1-Pad3)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J1" pin="3" pintype="input"/>
       <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(J2-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="2" pintype="input"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
     </net>
   </nets>
 </export>
