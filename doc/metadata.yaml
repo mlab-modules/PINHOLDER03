@@ -12,8 +12,8 @@ images:
 - doc/gen/PINHOLDER03-schematic.svg
 - doc/gen/img/PINHOLDER03-bottom.svg
 - doc/gen/img/PINHOLDER03-top.svg
-- hw/cam_profi/docs/PINHOLDER03A-assembly_page_01.svg
 - hw/cam_profi/docs/PINHOLDER03A-assembly_page_02.svg
+- hw/cam_profi/docs/PINHOLDER03A-assembly_page_01.svg
 issues: 0
 mark: 50
 mod_ibom: hw/cam_profi/ibom/PINHOLDER03-ibom.html
